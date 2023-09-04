@@ -18,7 +18,7 @@ ENTITY_SPEED = {'Level1Bg0': 0,
                 'Player1': 3,
                 'Player2': 3,
                 'Enemy1': 2,
-                'Enemy2': 2}
+                'Enemy2': 1}
 
 # M
 MENU_OPTION = ('NEW GAME 1P',
