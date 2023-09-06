@@ -8,6 +8,20 @@ COLOR_WHITE = (255, 255, 255)
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
 
+ENTITY_HEALTH = {'Level1Bg0': 999,
+                 'Level1Bg1': 999,
+                 'Level1Bg2': 999,
+                 'Level1Bg3': 999,
+                 'Level1Bg4': 999,
+                 'Level1Bg5': 999,
+                 'Level1Bg6': 999,
+                 'Player1': 300,
+                 'Player1Shot': 2,
+                 'Player2': 300,
+                 'Player2Shot': 3,
+                 'Enemy1': 200,
+                 'Enemy2': 200}
+
 ENTITY_SPEED = {'Level1Bg0': 0,
                 'Level1Bg1': 1,
                 'Level1Bg2': 2,
@@ -35,6 +49,8 @@ PLAYER_KEY_LEFT = {'Player1': pygame.K_LEFT,
                    'Player2': pygame.K_a}
 PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
                     'Player2': pygame.K_d}
+PLAYER_KEY_SHOOT = {'Player1': pygame.K_LCTRLC,
+                    'Player2': pygame.K_RCTRL}
 
 # W
 WIN_WIDTH = 576
